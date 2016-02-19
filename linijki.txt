@@ -1,0 +1,8 @@
+to linijka 10
+to linijka 1
+to linijka 2
+to linijka 4
+to linijka 5
+to linijka 7
+to linijka 8
+to linijka 10

@@ -1,5 +1,7 @@
 Git
 
+?Ktoś tu coś pisał?
+
 fajny tutorial do gita: http://pcottle.github.io/learnGitBranching/
 jeszcze lepszy ;P http://swcarpentry.github.io/git-novice/
 
