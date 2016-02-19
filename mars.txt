@@ -1,0 +1,40 @@
+Git
+
+fajny tutorial do gita: http://pcottle.github.io/learnGitBranching/
+jeszcze lepszy ;P http://swcarpentry.github.io/git-novice/
+
+konfiguracja na początku:
+$ git config --global user.name "Vlad Dracula"
+$ git config --global user.email "vlad@tran.sylvan.ia"
+$ git config --global color.ui "auto"
+
+konfiguracja edytora:
+nano:
+    $ git config --global core.editor "nano -w"
+Sublime Text (Mac):
+    $ git config --global core.editor "subl -n -w"
+Sublime Text (Win):
+    $ git config --global core.editor "'c:/program files/sublime text 2/sublime_text.exe' -w"
+Notepad++ (Win):
+    $ git config --global core.editor "'c:/program files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+Gedit (Linux):
+    $ git config --global core.editor "gedit -s"
+
+git init . – tworzenie repozytorium
+git status – informacje o stanie repozytorium
+utwórz nowy plik i dodaj go do repozytorium:
+    nano mars.txt
+    git add mars.txt
+    
+ponowne uruchomienie git status pokaże inne informacje
+
+git commit – utworzenie nowego commitu (odpala okno edytora tekstu)
+
+git log – historia wprowadzonych commitów; wyświetla dla każdego commita: unikalne ID, autora, datę oraz wprowadzony opis
+
+git diff – pokazuje zmiany wprowadzone w roboczej części repozytorium względem ostatniego (najnowszego) commita
+
+wiadomość w commicie: najlepiej samemu opisywać rodzaj wprowadzonej zmiany, np. "naprawiono błąd #123 poprzez zmianę wyświetlania na logowanie"
+
+
+working directory → staging area → commit: http://swcarpentry.github.io/git-novice/fig/git-committing.svg
